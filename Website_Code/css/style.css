@@ -1,0 +1,244 @@
+h1.rfExample {
+        font-family: "Bebas Neue", Arial; 
+        font-size: 30px; 
+        color: #99f;
+      }
+
+header #logo{
+
+	
+}
+
+body {
+	
+	/*background-color: white;*/
+}
+
+h1, p {
+	color: gray;
+	font-family: "Bebas Neue";
+	text-align: center;
+}
+
+h3 {
+	color: white;
+}
+footer {
+	text-align: center;
+	color: lightgray;
+}
+ul {
+	font-family: "Bebas Neue";
+	font-size: 20px;
+	list-style-type: none;
+	margin: 0px auto;
+	padding: 0px;
+	/*border:solid;
+	min-width: 300px;
+	max-width: 300px;*/
+	text-align: center;
+}
+ul#menu1{
+	padding:0;
+}
+ul#menu1 li {
+	display: inline;
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 10px;
+	width: 290px;
+	color: lightgray;
+	}
+ul#menu1 li a {
+	background-color: lightgray;
+	color: white;
+	padding: 5px 10px;
+	margin: 10px;
+	text-decoration:none;
+	border-radius: 40px 40px 40px 40px;
+	display:inline;
+	width: 290px;
+	display: inline-block;
+}
+ul#menu1 li a:hover {
+	background-color: #0DFF77;
+}
+ul li a:hover {
+	background-color: #0DFF77;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+nav ul li a {
+  display: block;
+  padding: 5px 20px;
+  color: #fff;
+  background-color: #32c896;
+}
+nav ul li a:hover {
+  color: #fff;
+  background-color: #238b68;
+}
+nav ul li a.active {
+  color: #fff;
+  background-color: #238b68;
+}
+ul#menu2 li {
+
+	background-color: white;
+	color: white;
+	padding: 70px 40px;
+	text-decoration:none;
+	border-radius: 4px 4px 0 0;
+    background-color: white;
+	display:inline;
+	width: 350px;
+	display: inline-block;
+	
+}
+.effects {
+  padding-left: 15px;
+}
+.effects .img {
+  position: relative;
+  /*float: left;*/
+  margin-bottom: 5px;
+  /*width: 25%;*/
+  overflow: hidden;
+}
+.effects .img:nth-child(n) {
+  margin-right: 5px;
+}
+.effects .img:first-child {
+  margin-left: -15px;
+}
+.effects .img:last-child {
+  margin-right: 0;
+}
+.effects .img img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+a.close-overlay.hidden {
+  display: none;
+}
+
+a.expand {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  border: solid 5px #fff;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+}
+
+#effect-6 .overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+#effect-6 .overlay a.expand {
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#effect-6 .img.hover .overlay {
+  opacity: 1;
+}
+#effect-6 .img.hover .overlay a.expand {
+  top: 50%;
+  margin-top: -30px;
+  opacity: 1;
+}
+/*ul#menu2 li a:hover {
+	background-color: lightgray;
+}
+
+.trPic{
+	width:350px;
+	height:350px;
+	background-image: url(images/Tengu.jpg);
+	border:5px solid #000000;
+}
+
+.trPic .redO{
+	position:relative;
+	
+	width:350px;
+	height:350px;
+	background:lightgray;
+	opacity:0;
+}
+.trPic:hover .redO{
+	opacity:0.4;
+}
+
+/*.bw {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.bw:hover {
+	-webkit-filter: grayscale(100%);
+}*/

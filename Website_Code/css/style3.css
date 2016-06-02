@@ -1,0 +1,53 @@
+h1.rfExample {
+        font-family: "Bebas Neue", Arial; 
+        font-size: 30px; 
+        color: #99f;
+      }
+
+body {
+	background-image:"blue-space-wallpaper.jpg";
+	/*background-color: white;*/
+}
+
+h1, p {
+	color: gold;
+	font-family: "Bebas Neue";
+}
+
+h3 {
+	color: white;
+}
+footer {
+
+	color:black;
+}
+ul {
+	font-family: "Bebas Neue";
+	font-size: 20px;
+	list-style-type: none;
+	margin: 0px auto;
+	padding: 0px;
+	/*border:solid;
+	min-width: 300px;
+	max-width: 300px;*/
+	text-align: center;
+}
+ul#menu1{
+	padding:0;
+}
+ul#menu1 li {
+	display: inline;
+}
+ul#menu1 li a {
+	background-color: lightgray;
+	color: white;
+	padding: 5px 10px;
+	text-decoration:none;
+	border-radius: 40px 40px 40px 40px;
+	display:inline;
+	width: 290px;
+	display: inline-block;
+}
+ul#menu1 li a:hover {
+	background-color: #0DFF77;
+}
